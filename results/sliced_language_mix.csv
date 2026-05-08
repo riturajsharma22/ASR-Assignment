@@ -1,0 +1,4 @@
+model,language_mix,locality_strict_acc
+deepgram,hinglish,0.15789473684210525
+sarvam,hinglish,0.1
+whisper,hinglish,0.15789473684210525

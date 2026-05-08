@@ -1,0 +1,519 @@
+{
+  "01_koramangala_quiet.mp3__deepgram": {
+    "transcript": "हां भाई. मैं कोरा मंगला में रहता हूं.",
+    "latency_ms": 2043.920000000071,
+    "audio_duration_ms": 2754.8125,
+    "raw_response": null,
+    "error": null
+  },
+  "02_indiranagar_quiet.mp3__deepgram": {
+    "transcript": "मेरा घर इंदिरा नगर side है.",
+    "latency_ms": 1820.769800000562,
+    "audio_duration_ms": 2999.416666666667,
+    "raw_response": null,
+    "error": null
+  },
+  "03_whitefield_quiet.mp3__deepgram": {
+    "transcript": "मैं Whitefield के पास room लेकर रहता हूं.",
+    "latency_ms": 2014.1397999977926,
+    "audio_duration_ms": 3236.2083333333335,
+    "raw_response": null,
+    "error": null
+  },
+  "04_electroniccity_fast.mp3__deepgram": {
+    "transcript": "Electronic City से बोल रहा हूँ.",
+    "latency_ms": 1616.9631000011577,
+    "audio_duration_ms": 2273.8125,
+    "raw_response": null,
+    "error": null
+  },
+  "05_marathahalli_quiet.mp3__deepgram": {
+    "transcript": "मेरी job मराठा हल्ली में है.",
+    "latency_ms": 1826.3810999997077,
+    "audio_duration_ms": 2732.0,
+    "raw_response": null,
+    "error": null
+  },
+  "06_hsrlayout_fan.mp3__deepgram": {
+    "transcript": "रोज़ एचेसार लेआउट travel करना पड़ता है.",
+    "latency_ms": 1798.9933999997447,
+    "audio_duration_ms": 3579.7083333333335,
+    "raw_response": null,
+    "error": null
+  },
+  "07_btmlayout_noise.mp3__deepgram": {
+    "transcript": "बीटीएम लेआउट में interview देने गया था.",
+    "latency_ms": 1913.7768000000506,
+    "audio_duration_ms": 3358.2708333333335,
+    "raw_response": null,
+    "error": null
+  },
+  "08_bellandur_tv.mp3__deepgram": {
+    "transcript": "Office बेलांडुर site पड़ता है.",
+    "latency_ms": 2465.5630000015663,
+    "audio_duration_ms": 2972.6666666666665,
+    "raw_response": null,
+    "error": null
+  },
+  "09_silkboard_traffic.mp3__deepgram": {
+    "transcript": "सिल्कबोर्ड के traffic में फँसा हुआ हूँ.",
+    "latency_ms": 2109.974899998633,
+    "audio_duration_ms": 2805.4375,
+    "raw_response": null,
+    "error": null
+  },
+  "10_hebbal_outdoor.mp3__deepgram": {
+    "transcript": "Cable से airport जा रहा था.",
+    "latency_ms": 2712.526600000274,
+    "audio_duration_ms": 2756.1875,
+    "raw_response": null,
+    "error": null
+  },
+  "11_krpuram_outdoor.mp3__deepgram": {
+    "transcript": "केआर पुरम cross कर लिया मैंने.",
+    "latency_ms": 2290.0350999989314,
+    "audio_duration_ms": 2877.8125,
+    "raw_response": null,
+    "error": null
+  },
+  "12_yelahanka_whisper.mp3__deepgram": {
+    "transcript": "",
+    "latency_ms": 2059.594099999231,
+    "audio_duration_ms": 2610.375,
+    "raw_response": null,
+    "error": null
+  },
+  "13_banashankari_whisper.mp3__deepgram": {
+    "transcript": "हां sir, मैं बानाशंकरी से बोल रहा हूं.",
+    "latency_ms": 1791.0474999989674,
+    "audio_duration_ms": 2492.0625,
+    "raw_response": null,
+    "error": null
+  },
+  "14_peenya_phone.mp3__deepgram": {
+    "transcript": "पीनिया industrial area में काम करता हूँ.",
+    "latency_ms": 1896.33689999755,
+    "audio_duration_ms": 2998.5416666666665,
+    "raw_response": null,
+    "error": null
+  },
+  "15_majestic_phone.mp3__deepgram": {
+    "transcript": "मैं अभी majestic आ रहा हूं.",
+    "latency_ms": 1994.5111000015459,
+    "audio_duration_ms": 2562.3125,
+    "raw_response": null,
+    "error": null
+  },
+  "16_sarjapur_fast.mp3__deepgram": {
+    "transcript": "मैं सरचपुर roadside रहता हूं.",
+    "latency_ms": 1604.8835000001418,
+    "audio_duration_ms": 2154.520833333333,
+    "raw_response": null,
+    "error": null
+  },
+  "17_yeshwanthpur_fast.mp3__deepgram": {
+    "transcript": "या श्वंपुर station के पास हूँ.",
+    "latency_ms": 1898.083600000973,
+    "audio_duration_ms": 2034.4375000000002,
+    "raw_response": null,
+    "error": null
+  },
+  "18_thanisandra_normal.mp3__deepgram": {
+    "transcript": "थानी संड्र में delivery का काम करता हूँ.",
+    "latency_ms": 2167.3732999988715,
+    "audio_duration_ms": 2852.708333333333,
+    "raw_response": null,
+    "error": null
+  },
+  "19_rajarajeshwarinagar_normal.mp3__deepgram": {
+    "transcript": "राजा राजेश्वर में मेरा permanent address है.",
+    "latency_ms": 2066.175399999338,
+    "audio_duration_ms": 2971.770833333333,
+    "raw_response": null,
+    "error": null
+  },
+  "20_kengeriupanagara_normal.mp3__deepgram": {
+    "transcript": "केंगेरी ऊपर नगरा side आना पड़ेगा.",
+    "latency_ms": 2111.020299998927,
+    "audio_duration_ms": 2924.2083333333335,
+    "raw_response": null,
+    "error": null
+  },
+  "01_koramangala_quiet.mp3__whisper": {
+    "transcript": "हाँ भाई मैं कोरा मंगला में रहता हूँ",
+    "latency_ms": 25425.469099998736,
+    "audio_duration_ms": 2754.8125,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "02_indiranagar_quiet.mp3__whisper": {
+    "transcript": "मेरा घर इंदिरा नगर साइड है",
+    "latency_ms": 21130.924400000367,
+    "audio_duration_ms": 2999.416666666667,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "03_whitefield_quiet.mp3__whisper": {
+    "transcript": "मैं वाइट फिल्ड के पास रूम लेके रहता हूँ",
+    "latency_ms": 23457.590300000447,
+    "audio_duration_ms": 3236.2083333333335,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "04_electroniccity_fast.mp3__whisper": {
+    "transcript": "Electronic City से बोल रहा हूँ",
+    "latency_ms": 19264.463200001046,
+    "audio_duration_ms": 2273.8125,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "05_marathahalli_quiet.mp3__whisper": {
+    "transcript": "मेरी जॉब मराठा हल्ली में है",
+    "latency_ms": 20897.72620000076,
+    "audio_duration_ms": 2732.0,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "06_hsrlayout_fan.mp3__whisper": {
+    "transcript": "",
+    "latency_ms": 0.0,
+    "audio_duration_ms": 3579.7083333333335,
+    "raw_response": null,
+    "error": ""
+  },
+  "07_btmlayout_noise.mp3__whisper": {
+    "transcript": "BTM Layout में Interview देने गया था",
+    "latency_ms": 19909.115200000087,
+    "audio_duration_ms": 3358.2708333333335,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "08_bellandur_tv.mp3__whisper": {
+    "transcript": "ओफिस बेलांडूर साइट पढ़ता है",
+    "latency_ms": 22834.309900001244,
+    "audio_duration_ms": 2972.6666666666665,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "09_silkboard_traffic.mp3__whisper": {
+    "transcript": "सिल्क बोर्ड के ट्रैफिक में फसा हुआ हूँ",
+    "latency_ms": 23957.38309999797,
+    "audio_duration_ms": 2805.4375,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "10_hebbal_outdoor.mp3__whisper": {
+    "transcript": "खेबल से एरपुट जा रहा था",
+    "latency_ms": 18703.777800001262,
+    "audio_duration_ms": 2756.1875,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "11_krpuram_outdoor.mp3__whisper": {
+    "transcript": "के आरपुरम क्रॉस कर लिया मैंने",
+    "latency_ms": 21650.34089999972,
+    "audio_duration_ms": 2877.8125,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "12_yelahanka_whisper.mp3__whisper": {
+    "transcript": "याला हंका साइड एक रूम देख रहा हूँ",
+    "latency_ms": 20505.991499998345,
+    "audio_duration_ms": 2610.375,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "13_banashankari_whisper.mp3__whisper": {
+    "transcript": "हाँ सर मैं बाना शंकरी से बोल रहा हूँ",
+    "latency_ms": 21739.276100001007,
+    "audio_duration_ms": 2492.0625,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "14_peenya_phone.mp3__whisper": {
+    "transcript": "PNI Industrial Area में काम करता हूँ",
+    "latency_ms": 17617.07430000024,
+    "audio_duration_ms": 2998.5416666666665,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "15_majestic_phone.mp3__whisper": {
+    "transcript": "मैं अभी Majestic आ रहा हूँ",
+    "latency_ms": 18376.553900001454,
+    "audio_duration_ms": 2562.3125,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "16_sarjapur_fast.mp3__whisper": {
+    "transcript": "मैं सरचपूर रोड साइट रहता हूँ",
+    "latency_ms": 19664.41489999852,
+    "audio_duration_ms": 2154.520833333333,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "17_yeshwanthpur_fast.mp3__whisper": {
+    "transcript": "याश्वनपूर्ड स्टेशन के पास हूँ",
+    "latency_ms": 20062.782799999695,
+    "audio_duration_ms": 2034.4375000000002,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "18_thanisandra_normal.mp3__whisper": {
+    "transcript": "थानी संडर में डिलिवरी का काम करता हूँ",
+    "latency_ms": 21038.437500003056,
+    "audio_duration_ms": 2852.708333333333,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "19_rajarajeshwarinagar_normal.mp3__whisper": {
+    "transcript": "राजा रजेश्वरा में मेरा परमनेंट एड्रेस है",
+    "latency_ms": 21918.90030000286,
+    "audio_duration_ms": 2971.770833333333,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "20_kengeriupanagara_normal.mp3__whisper": {
+    "transcript": "कैंगरी उपनगरा साइड आना पड़ेगा",
+    "latency_ms": 20652.40929999709,
+    "audio_duration_ms": 2924.2083333333335,
+    "raw_response": {
+      "detected_language": "hi",
+      "language_probability": 1
+    },
+    "error": null
+  },
+  "01_koramangala_quiet.mp3__sarvam": {
+    "transcript": "हां भाई, मैं कोरामंगला में रहता हूं।",
+    "latency_ms": 667.9052000035881,
+    "audio_duration_ms": 2754.8125,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "02_indiranagar_quiet.mp3__sarvam": {
+    "transcript": "मेरा घर इंदिरानगर साइड है",
+    "latency_ms": 538.2324000020162,
+    "audio_duration_ms": 2999.416666666667,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "03_whitefield_quiet.mp3__sarvam": {
+    "transcript": "मैं वाइटफील्ड के पास रूम लेके रहता हूं।",
+    "latency_ms": 554.4201000011526,
+    "audio_duration_ms": 3236.2083333333335,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "04_electroniccity_fast.mp3__sarvam": {
+    "transcript": "इलेक्ट्रॉनिक सिटी से बोल रहा हूं।",
+    "latency_ms": 483.1800000029034,
+    "audio_duration_ms": 2273.8125,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "05_marathahalli_quiet.mp3__sarvam": {
+    "transcript": "मेरी जॉब मराठा हल्ली में है।",
+    "latency_ms": 545.1914000004763,
+    "audio_duration_ms": 2732.0,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "06_hsrlayout_fan.mp3__sarvam": {
+    "transcript": "रोज़ एच एस आर लेआउट ट्रेवल करना पड़ता है।",
+    "latency_ms": 577.1471000043675,
+    "audio_duration_ms": 3579.7083333333335,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "07_btmlayout_noise.mp3__sarvam": {
+    "transcript": "बीटीएम लेआउट में इंटरव्यू देने गया था।",
+    "latency_ms": 539.6640999970259,
+    "audio_duration_ms": 3358.2708333333335,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "08_bellandur_tv.mp3__sarvam": {
+    "transcript": "ऑफिस बेलांडूर साइट पड़ता है।",
+    "latency_ms": 545.2300000033574,
+    "audio_duration_ms": 2972.6666666666665,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "09_silkboard_traffic.mp3__sarvam": {
+    "transcript": "सिल्क बोर्ड के ट्रैफिक में फंसा हुआ हूं।",
+    "latency_ms": 617.2493000049144,
+    "audio_duration_ms": 2805.4375,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "10_hebbal_outdoor.mp3__sarvam": {
+    "transcript": "टेबल से एयरपोर्ट जा रहा था।",
+    "latency_ms": 549.2615000039223,
+    "audio_duration_ms": 2756.1875,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "11_krpuram_outdoor.mp3__sarvam": {
+    "transcript": "केआरपुरम क्रॉस कर लिया मैंने।",
+    "latency_ms": 549.6620999983861,
+    "audio_duration_ms": 2877.8125,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "12_yelahanka_whisper.mp3__sarvam": {
+    "transcript": "ये लाहंग का साइड एक रूम देख रहा हूं।",
+    "latency_ms": 513.4032999994815,
+    "audio_duration_ms": 2610.375,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "13_banashankari_whisper.mp3__sarvam": {
+    "transcript": "हां सर, मैं बाला शंकर जी से बोल रहा हूं।",
+    "latency_ms": 788.3739000026253,
+    "audio_duration_ms": 2492.0625,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "14_peenya_phone.mp3__sarvam": {
+    "transcript": "पेनिया इंडस्ट्रियल एरिया में काम करता हूं।",
+    "latency_ms": 568.3515000055195,
+    "audio_duration_ms": 2998.5416666666665,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "15_majestic_phone.mp3__sarvam": {
+    "transcript": "मैं अभी मैजेस्टिक आ रहा हूं।",
+    "latency_ms": 488.48310000175843,
+    "audio_duration_ms": 2562.3125,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "16_sarjapur_fast.mp3__sarvam": {
+    "transcript": "मैं सरहजपुर रोड साइड रहता हूं।",
+    "latency_ms": 886.7774000027566,
+    "audio_duration_ms": 2154.520833333333,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "17_yeshwanthpur_fast.mp3__sarvam": {
+    "transcript": "यह अश्वनपुर स्टेशन के पास है।",
+    "latency_ms": 498.9514000044437,
+    "audio_duration_ms": 2034.4375000000002,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "18_thanisandra_normal.mp3__sarvam": {
+    "transcript": "थानी संड्रा में डिलीवरी का काम करता हूं।",
+    "latency_ms": 527.7851999999257,
+    "audio_duration_ms": 2852.708333333333,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "19_rajarajeshwarinagar_normal.mp3__sarvam": {
+    "transcript": "राजा राजेश्वर में मेरा परमानेंट एड्रेस है।",
+    "latency_ms": 518.7943999990239,
+    "audio_duration_ms": 2971.770833333333,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  },
+  "20_kengeriupanagara_normal.mp3__sarvam": {
+    "transcript": "कैंगेरी उपनगरा साइड आना पड़ेगा।",
+    "latency_ms": 583.2915999999386,
+    "audio_duration_ms": 2924.2083333333335,
+    "raw_response": {
+      "language_code": "hi-IN"
+    },
+    "error": null
+  }
+}

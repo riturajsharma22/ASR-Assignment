@@ -22,15 +22,8 @@ ENV/
 # Environment / secrets
 .env
 
-# Project outputs (large / generated)
-results/*.json
-results/*.csv
-results/*.md
 
-# Audio inputs (personal recordings)
-data/audio/*.mp3
-data/audio/*.wav
-data/audio/*.m4a
+
 
 # Jupyter
 .ipynb_checkpoints/
