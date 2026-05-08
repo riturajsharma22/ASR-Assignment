@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem -Path \"D:\\\\asr-shootout\" -Recurse | Where-Object { !$_.PSIsContainer } | Select-Object -ExpandProperty FullName | Sort-Object)",
+      "WebFetch(domain:docs.sarvam.ai)",
+      "PowerShell(cd D:\\\\asr-shootout; $env:PYTHONUTF8=1; .venv\\\\Scripts\\\\python.exe -m src.run_all 2>&1)",
+      "Bash(python *)",
+      "Bash(.venv\\\\Scripts\\\\python.exe *)",
+      "PowerShell(cd D:\\\\asr-shootout; .venv\\\\Scripts\\\\python.exe test_wh.py > D:\\\\asr-shootout\\\\test_wh_out.txt 2> D:\\\\asr-shootout\\\\test_wh_err.txt; $code=$LASTEXITCODE; Write-Host \"Exit: $code\"; Get-Content D:\\\\asr-shootout\\\\test_wh_out.txt; Write-Host \"---STDERR---\"; Get-Content D:\\\\asr-shootout\\\\test_wh_err.txt)",
+      "PowerShell(Get-ChildItem \"C:\\\\Users\\\\techr\\\\.cache\\\\huggingface\\\\hub\\\\models--vasista22--whisper-hindi-large-v2\" -Recurse | Where-Object { -not $_.PSIsContainer } | Select-Object FullName, @{N=\"MB\";E={[math]::Round\\($_.Length/1MB,1\\)}} | Sort-Object MB -Descending | Select-Object -First 10)",
+      "Bash(xargs -I{} sh -c 'echo \"{}: $\\(du -sh \"{}\" | cut -f1\\)\"')",
+      "PowerShell(cd D:\\\\asr-shootout; .venv\\\\Scripts\\\\python.exe test_wh.py > D:\\\\asr-shootout\\\\test_wh_out.txt 2> D:\\\\asr-shootout\\\\test_wh_err.txt; $code=$LASTEXITCODE; Write-Host \"Exit: $code\"; Get-Content D:\\\\asr-shootout\\\\test_wh_out.txt; Write-Host \"---STDERR \\(last 5 lines\\)---\"; Get-Content D:\\\\asr-shootout\\\\test_wh_err.txt | Select-Object -Last 5)",
+      "PowerShell(cd D:\\\\asr-shootout; .venv\\\\Scripts\\\\python.exe test_wh.py > D:\\\\asr-shootout\\\\test_wh_out.txt 2> D:\\\\asr-shootout\\\\test_wh_err.txt; $code=$LASTEXITCODE; Write-Host \"Exit: $code\"; Get-Content D:\\\\asr-shootout\\\\test_wh_out.txt; Write-Host \"---STDERR \\(last 8 lines\\)---\"; Get-Content D:\\\\asr-shootout\\\\test_wh_err.txt | Select-Object -Last 8)",
+      "PowerShell(cd D:\\\\asr-shootout; .venv\\\\Scripts\\\\python.exe test_wh.py > D:\\\\asr-shootout\\\\test_wh_out.txt 2> D:\\\\asr-shootout\\\\test_wh_err.txt; $code=$LASTEXITCODE; Write-Host \"Exit: $code\"; Get-Content D:\\\\asr-shootout\\\\test_wh_out.txt; Write-Host \"---STDERR \\(warnings only\\)---\"; Get-Content D:\\\\asr-shootout\\\\test_wh_err.txt | Select-Object -Last 3)"
+    ]
+  }
+}

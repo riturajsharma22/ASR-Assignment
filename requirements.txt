@@ -1,0 +1,33 @@
+# Install in this order:
+#
+# 1. CPU-only PyTorch:
+#      pip install torch==2.4.1+cpu --index-url https://download.pytorch.org/whl/cpu
+#
+# 2. AI4Bharat NeMo fork (required for IndicConformer — NOT the standard NVIDIA package):
+#      pip install "nemo_toolkit[asr] @ git+https://github.com/AI4Bharat/NeMo.git"
+#
+# 3. Everything else:
+#      pip install -r requirements.txt
+
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+# ASR APIs and local engines
+deepgram-sdk==3.8.0
+faster-whisper==1.0.2
+transformers==4.44.2
+torch==2.4.1+cpu
+
+# Audio I/O
+librosa==0.10.2
+soundfile==0.12.1
+
+# Metrics
+jiwer==3.0.3
+python-Levenshtein==0.23.0
+indic-transliteration==0.91.1
+
+# Data / utilities
+pandas==2.2.2
+python-dotenv==1.0.1
+requests==2.32.2
+tqdm==4.66.4

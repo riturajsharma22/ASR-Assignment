@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+
+# Project outputs (large / generated)
+results/*.json
+results/*.csv
+results/*.md
+
+# Audio inputs (personal recordings)
+data/audio/*.mp3
+data/audio/*.wav
+data/audio/*.m4a
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# HuggingFace model cache (usually stored in ~/.cache/huggingface, not here)
+*.bin
+*.safetensors
