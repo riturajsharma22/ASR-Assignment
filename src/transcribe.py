@@ -19,7 +19,6 @@ from tqdm import tqdm
 from .config import (
     DEEPGRAM_API_KEY,
     SARVAM_API_KEY,
-    HF_TOKEN,
     WHISPER_MODEL_SIZE,
     SAMPLE_RATE,
     TRANSCRIPTIONS_JSON,
@@ -148,69 +147,7 @@ class WhisperModel(ASRModel):
 
 
 # ---------------------------------------------------------------------------
-# Model 3 — AI4Bharat IndicConformer Hindi (NeMo, AI4Bharat fork)
-#
-# Requires the AI4Bharat NeMo fork — NOT the standard NVIDIA nemo_toolkit:
-#   pip install "nemo_toolkit[asr] @ git+https://github.com/AI4Bharat/NeMo.git"
-#
-# NeMo's transcribe() takes file paths, so we write a temporary WAV via
-# soundfile before calling it, then clean up.
-# ---------------------------------------------------------------------------
-
-class IndicConformerModel(ASRModel):
-    name = "indicconformer"
-    _MODEL_ID = "ai4bharat/indicconformer_stt_hi_hybrid_ctc_rnnt_large"
-
-    def __init__(self) -> None:
-        import nemo.collections.asr as nemo_asr
-        self._model = nemo_asr.models.ASRModel.from_pretrained(self._MODEL_ID)
-        self._model.freeze()
-        self._model = self._model.to("cpu")
-        # CTC decoder is faster than RNNT on CPU and produces comparable accuracy
-        self._model.cur_decoder = "ctc"
-
-    def transcribe(self, audio_path: Path) -> TranscriptionResult:
-        import tempfile
-        import soundfile as sf
-        duration_ms = _audio_duration_ms(audio_path)
-        try:
-            # NeMo needs 16 kHz mono WAV; load via librosa then write temp file
-            audio, _ = librosa.load(str(audio_path), sr=SAMPLE_RATE, mono=True)
-            with tempfile.NamedTemporaryFile(suffix=".wav", delete=False) as tmp:
-                tmp_path = Path(tmp.name)
-            sf.write(str(tmp_path), audio, SAMPLE_RATE)
-            try:
-                t0 = time.perf_counter()
-                results = self._model.transcribe(
-                    [str(tmp_path)],
-                    batch_size=1,
-                    logprobs=False,
-                    language_id="hi",
-                    verbose=False,
-                )
-                latency_ms = (time.perf_counter() - t0) * 1000.0
-            finally:
-                tmp_path.unlink(missing_ok=True)
-            transcript = str(results[0]) if results else ""
-            return TranscriptionResult(
-                transcript=transcript,
-                latency_ms=latency_ms,
-                audio_duration_ms=duration_ms,
-                raw_response=None,
-                error=None,
-            )
-        except Exception as exc:
-            return TranscriptionResult(
-                transcript="",
-                latency_ms=0.0,
-                audio_duration_ms=duration_ms,
-                raw_response=None,
-                error=str(exc),
-            )
-
-
-# ---------------------------------------------------------------------------
-# Model 4 — Sarvam AI Saarika v2 (REST API)
+# Model 3 — Sarvam AI Saarika v2 (REST API)
 # ---------------------------------------------------------------------------
 
 class SarvamModel(ASRModel):

@@ -36,7 +36,8 @@ ENV/
 *.swo
 
 # OS
-.DS_Store
+.DS_Store.
+
 Thumbs.db
 
 # HuggingFace model cache (usually stored in ~/.cache/huggingface, not here)
